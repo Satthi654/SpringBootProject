@@ -1,0 +1,17 @@
+2023-02-21 10:45:39.166  INFO 10776 --- [main] c.s.SpringbootLogging1Application        : Starting SpringbootLogging1Application using Java 1.8.0_111 on SaG-HO-IT-Sathishkumar with PID 10776 (E:\JRTP\WorkSpace\SpringbootLogging2\target\classes started by Sathish Kumar D S in E:\JRTP\WorkSpace\SpringbootLogging2)
+2023-02-21 10:45:39.171  INFO 10776 --- [main] c.s.SpringbootLogging1Application        : No active profile set, falling back to 1 default profile: "default"
+2023-02-21 10:45:40.251  INFO 10776 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-21 10:45:40.263  INFO 10776 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-21 10:45:40.264  INFO 10776 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-21 10:45:40.421  INFO 10776 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-21 10:45:40.422  INFO 10776 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1174 ms
+2023-02-21 10:45:40.895  INFO 10776 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-21 10:45:40.907  INFO 10776 --- [main] c.s.SpringbootLogging1Application        : Started SpringbootLogging1Application in 2.245 seconds (JVM running for 5.004)
+2023-02-21 10:45:40.911  INFO 10776 --- [main] com.saggraha.log.LoggingTest1            : testOneMethod Stared
+2023-02-21 10:45:40.912  INFO 10776 --- [main] com.saggraha.log.LoggingTest2            : testTwoMethod Stared
+2023-02-21 10:45:40.912  INFO 10776 --- [main] com.saggraha.log.LoggingTest2            : testTwoMethod Ended
+2023-02-21 10:45:40.913  INFO 10776 --- [main] com.saggraha.log.LoggingTest3            : testThreeMethod Stared
+2023-02-21 10:45:40.913  INFO 10776 --- [main] com.saggraha.log.LoggingTest3            : testThreeMethod Ended
+2023-02-21 10:45:40.914  INFO 10776 --- [main] com.saggraha.log.LoggingTest1            : testOneMethod Ended
+2023-02-21 10:46:38.848  INFO 10776 --- [RMI TCP Connection(8)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-02-21 10:46:41.000  INFO 10776 --- [RMI TCP Connection(8)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<appender name="StoreToFile"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<encoder>
+			<pattern>%d [%thread] %-5level %-50logger{40} - %msg%n</pattern>
+		</encoder>
+		<rollingPolicy	class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+			<fileNamePattern>jrtp-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+			<maxFileSize>1MB</maxFileSize>
+			<maxHistory>30</maxHistory>
+			<totalSizeCap>10MB</totalSizeCap>
+			<cleanHistoryOnStart>true</cleanHistoryOnStart>
+		</rollingPolicy>
+	</appender>
+	<root level="INFO">
+		<appender-ref ref="StoreToFile" />
+	</root>
+</configuration>
